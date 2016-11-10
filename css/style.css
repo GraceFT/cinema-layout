@@ -1,0 +1,211 @@
+*{
+    font-family: "Open Sans"
+}
+/*----------HEADER--------*/
+header .head{
+    background-color:#fcfcfc;
+} 
+header img{
+    width: 380px;
+}
+header .mov{
+    position: absolute;
+    top: 35px;
+    left: 500px;
+    color: #ccc;
+}
+.barra1 .fa {
+    margin-left: -25px;
+}
+.barra1 input{
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+/*----------SECTION--------*/
+
+.sect1 .ban{
+    background-image: url(../img/banner.jpg);
+    height: 350px;
+    background-size: cover;  
+}
+.sect1 .menu{
+    background-color: rgba(38,38,38,0.9);
+    height: 350px;   
+}
+.sect1 img{
+    width: 50px;
+    position: relative;
+    left: 210px;
+    top: 200px;
+}
+.menu ul{
+    color: #ccc;
+    list-style: none;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.menu h1{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    margin: 20px ;
+    font-size: 30px;
+    color: #ccc;
+    width: 330px
+}
+.menu li{
+    margin: 10px 0;
+}
+.menu .min {
+    border: 1px solid limegreen;
+    border-radius: 3px;
+    text-decoration: none;
+    color: limegreen;
+    padding: 5px;
+    margin-right:10px;
+}
+.menu ul{
+    font-size: 10px;
+}
+
+.fa-youtube-play{
+    position: absolute;
+    margin: 10px 5px;
+}
+.menu .butt1 input {
+    background-color: #eebf24;
+    text-decoration: none;
+    color:#fff;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 7px;
+    width: 120px;
+    border-radius: 3px;
+    
+}
+.menu .butt2 a{
+    background-color: darkgoldenrod;
+    text-decoration: none;
+    color:#fff;
+    padding: 9px;
+    border-radius: 3px;
+    display: block;
+    width: 120px;
+    font-weight: bold;
+}
+
+/*----------SECT2----MOVIES--------*/
+.section2 .mov{
+    background-color: #eebf24;
+}
+.section2 img{
+    width:160px;
+    height: 200px;
+}
+.section2 .trailer-mov{
+    height: 220px;
+    margin: 20px;
+}
+/*------SECT3-VIDEO--------------*/
+.sect3 iframe{
+    width: 100%;
+}
+/*------BUY-YOUR-TICKET--------------*/
+.book, .news{
+    margin: 40px 0;
+    color: rgba(128, 128, 128, 0.36);
+}
+.book ul{
+    list-style: none;
+    margin: 0 35px;
+}
+.book li{
+    padding: 10px 0; 
+}
+.tick h3{
+    font-size: 18px;
+}
+.tick h1{
+    color: #000;
+}
+.tick h2{
+    font-size: 18px;
+    font-weight: 200;
+}
+.button{
+    width: 120px;
+    height: 50px;
+    background-color: #C79355;
+    border-radius: 3px;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    padding:17.5px;
+}
+.book p{
+    font-size: 11px;
+    color: #C79355;
+}
+/*--------COL-6.2-----------------*/
+.news ul{
+    list-style: none;
+    margin-right:35px;
+    padding: 0;
+}
+.news h4{
+    font-size: 18px;
+    font-weight: 50;
+}
+.news h5{
+    margin-top: 20px;
+    color: #000;
+}
+.news h6, p {
+    font-size: 12px;
+}
+.news li p {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.news a{
+    display: block;
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: bolder;
+    margin: 30px 0;
+}
+/*--------MOVIES-----------------*/
+.pelis{
+    height: 250px;
+    margin: 35px;
+}
+.pelis img{
+    width: 240px;
+    height: 250px;
+}
+/*--------FOOTER-----------------*/
+footer{
+    background-color: rgba(211, 211, 211, 0.33);
+}
+.disc ul{
+    width: 550px;
+    list-style: none;
+    margin: 30px 50px;
+    color:rgba(128, 128, 128, 0.36);
+    font-size: 12px;
+}
+.disc p{
+    margin: 30px 0;
+    color: darkgray;
+    font-size: 12px;
+}
+.disc a{
+    text-decoration: none;
+    color:darkgray;
+    font-weight: bold;
+}
+/*--------FOOTER-----------------*/
